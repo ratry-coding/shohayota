@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Volunteer - Shohayota</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- নিজের CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                Shohayota
+            </a>
+
+            <div class="navbar-nav">
+
+                <a class="nav-link" href="index.html">
+                    Home
+                </a>
+
+                <a class="nav-link active" href="volunteer.html">
+                    Volunteer
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Volunteer Form -->
+
+    <div class="container my-5">
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+
+                <div class="card shadow">
+
+                    <div class="card-body p-4">
+
+                        <h2 class="text-center text-primary mb-3">
+                            Volunteer Registration
+                        </h2>
+
+                        <p class="text-center text-muted mb-4">
+                            মানুষের পাশে দাঁড়াতে Volunteer হিসেবে যুক্ত হোন।
+                        </p>
+
+
+                        <form>
+
+
+                            <!-- Name -->
+
+                            <div class="mb-3">
+
+                                <label for="name" class="form-label">
+                                    পূর্ণ নাম
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="আপনার পূর্ণ নাম লিখুন"
+                                    required>
+
+                            </div>
+
+
+                            <!-- Email -->
+
+                            <div class="mb-3">
+
+                                <label for="email" class="form-label">
+                                    Email
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    placeholder="example@gmail.com"
+                                    required>
+
+                            </div>
+
+
+                            <!-- Phone -->
+
+                            <div class="mb-3">
+
+                                <label for="phone" class="form-label">
+                                    মোবাইল নম্বর
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    class="form-control"
+                                    id="phone"
+                                    placeholder="01XXXXXXXXX"
+                                    required>
+
+                            </div>
+
+
+                            <!-- Address -->
+
+                            <div class="mb-3">
+
+                                <label for="address" class="form-label">
+                                    ঠিকানা
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    id="address"
+                                    rows="2"
+                                    placeholder="আপনার ঠিকানা লিখুন"
+                                    required></textarea>
+
+                            </div>
+
+
+                            <!-- Volunteer Work -->
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    কোন ধরনের কাজে Volunteer করতে চান?
+                                </label>
+
+                                <select class="form-select" required>
+
+                                    <option value="">
+                                        কাজ নির্বাচন করুন
+                                    </option>
+
+                                    <option>
+                                        রক্তের সহায়তা
+                                    </option>
+
+                                    <option>
+                                        খাদ্য সহায়তা
+                                    </option>
+
+                                    <option>
+                                        চিকিৎসা সহায়তা
+                                    </option>
+
+                                    <option>
+                                        শিক্ষা সহায়তা
+                                    </option>
+
+                                    <option>
+                                        জরুরি সহায়তা
+                                    </option>
+
+                                    <option>
+                                        অন্যান্য
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- Availability -->
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+                                    আপনি কখন Volunteer করতে পারবেন?
+                                </label>
+
+                                <select class="form-select" required>
+
+                                    <option value="">
+                                        সময় নির্বাচন করুন
+                                    </option>
+
+                                    <option>
+                                        সকাল
+                                    </option>
+
+                                    <option>
+                                        দুপুর
+                                    </option>
+
+                                    <option>
+                                        বিকেল
+                                    </option>
+
+                                    <option>
+                                        সন্ধ্যা
+                                    </option>
+
+                                    <option>
+                                        যেকোনো সময়
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- Experience -->
+
+                            <div class="mb-3">
+
+                                <label for="experience" class="form-label">
+                                    পূর্বের Volunteer অভিজ্ঞতা
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    id="experience"
+                                    rows="3"
+                                    placeholder="আপনার পূর্বের অভিজ্ঞতা থাকলে লিখুন"></textarea>
+
+                            </div>
+
+
+                            <!-- Why -->
+
+                            <div class="mb-3">
+
+                                <label for="reason" class="form-label">
+                                    কেন Volunteer হতে চান?
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    id="reason"
+                                    rows="3"
+                                    placeholder="সংক্ষেপে লিখুন"></textarea>
+
+                            </div>
+
+
+                            <!-- Submit -->
+
+                            <div class="text-center">
+
+                                <button
+                                    type="submit"
+                                    class="btn btn-primary px-5">
+
+                                    Volunteer হিসেবে আবেদন করুন
+
+                                </button>
+
+                            </div>
+
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
